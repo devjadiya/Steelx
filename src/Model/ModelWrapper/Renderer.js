@@ -7,7 +7,7 @@ export default class Renderer{
         this.scene= this.modelwrapper.scene;
         this.canvas = this.modelwrapper.canvas;
         this.camera = this.modelwrapper.camera;
-        this.scene.background = new THREE.Color(0xeeeeee)
+        this.scene.background = new THREE.Color(0x000000)
 
         this.setRenderer();
         

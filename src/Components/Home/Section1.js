@@ -22,8 +22,8 @@ const Section1=()=> {
 
     return (
         <div>
-            <section className=" bg-white relative w-full lg:h-screen flex justify-center items-center mx-auto py-4 px-4 md:px-8">
-
+            <section className=" mt-48 lg:mt-0 bg-white relative w-full lg:h-screen flex justify-center items-center mx-auto py-4 px-4 md:px-8">
+<img className=' opacity-25 absolute lg:h-[800px] h-[300px] lg:-translate-y-0  -translate-y-48' src='/assests/STEEL X PNG_LOGO SAMPLE.png'/>
                 <div className="relative z-10 gap-5 items-center lg:flex j-full">
                     
                     <div className="flex lg:flex-row flex-col gap-y-8 lg:w-1/2  mt-5 mx-auto sm:w-9/12 h-full lg:mt-0  w-full">

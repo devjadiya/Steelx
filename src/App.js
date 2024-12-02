@@ -72,6 +72,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/productservices/factory-model" element={<PebModels />} />
           <Route path="/about/vision-mission-values" element={<Vision />} />
           <Route path="/productservices/accessories" element={<Accessories />} />
           <Route path="/projects" element={<Projects />} />
@@ -82,7 +83,7 @@ function App() {
           />
           <Route path="/contact/enquire-now" element={<Enquire />} />
         </Routes>
-        <Footer />
+        
       </BrowserRouter>
     </div>
   );

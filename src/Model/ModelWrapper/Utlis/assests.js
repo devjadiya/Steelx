@@ -2,6 +2,6 @@ export default [
     {
         name:"PEB",
         type:"glbModel",
-        path:"/models/FinalModelMaking2.glb"
+        path:"/models/FinalModelMaking5.glb"
     }
 ]

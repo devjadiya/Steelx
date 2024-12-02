@@ -1,4 +1,5 @@
 import React from 'react'
+import { OurValues } from '../../Data'
 
 export default function Section2() {
     return (
@@ -14,11 +15,11 @@ export default function Section2() {
                             <img src='/assests/Svgs/ourvalues1.svg' className=' object-cover my-2' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                            
-Straightforward Communication
+
+                            {OurValues[0].heading}
                         </h1>
                         <p className=' lg:text-md text-sm font-semibold'>
-                        We foster candid discussions, valuing open debates where the best ideas emerge triumphant.
+                            {OurValues[0].description}
                         </p>
                     </div>
                     <div className='flex justify-start flex-col items-start gap-y-3 rounded-2xl shadow-lg bg-white p-5 w-full lg:w-1/4 h-60 lg:h-80'>
@@ -26,10 +27,10 @@ Straightforward Communication
                             <img src='/assests/Svgs/ourvalues2.svg' className='mb-5 object-cover ' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                        Customer-Centric Approach
+                            {OurValues[1].heading}
                         </h1>
                         <p className=' lg:text-md text-sm font-semibold'>
-                        At SteelX, customers are at the heart of our focus and initiatives. We strive to exceed expectations through dedicated service and innovative solutions.
+                            {OurValues[1].description}
                         </p>
                     </div>
                     <div className='flex justify-start flex-col items-start gap-y-3 rounded-2xl shadow-lg bg-white p-5 w-full lg:w-1/4 h-60 lg:h-80'>
@@ -37,10 +38,10 @@ Straightforward Communication
                             <img src='/assests/Svgs/ourvalues3.svg' className='mb-5 object-cover my-2' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                        Collaborative Team Spirit
+                            {OurValues[2].heading}
                         </h1>
                         <p className=' lg:text-md text-sm font-semibold'>
-                        We embrace teamwork, actively sharing information and ideas, collectively working to elevate the capabilities of those around us
+                            {OurValues[2].description}
                         </p>
                     </div>
 
@@ -49,10 +50,10 @@ Straightforward Communication
                             <img src='/assests/Svgs/ourvalues4.svg' className='mb-5 object-cover my-2' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                        Diversity & Inclusivity
+                            {OurValues[3].heading}
                         </h1>
                         <p className='lg:text-md text-sm font-semibold'>
-                        Our workforce's diversity is an invaluable asset. We treat everyone with dignity and respect, irrespective of status, gender, education, ethnicity, or religion.
+                            {OurValues[3].description}
                         </p>
                     </div>
                 </div>
@@ -62,10 +63,10 @@ Straightforward Communication
                             <img src='/assests/Svgs/ourvalues5.svg' className='mb-5 object-cover my-2' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                        Empowerment Culture
+                            {OurValues[4].heading}
                         </h1>
                         <p className=' lg:text-md text-smfont-semibold'>
-                        We believe in empowering individuals to make decisions with a proactive mindset, fostering a culture of action.
+                            {OurValues[4].description}
                         </p>
                     </div>
                     <div className='flex justify-start flex-col items-start gap-y-3 rounded-2xl shadow-lg bg-white p-5 w-full lg:w-1/4 h-60 lg:h-80'>
@@ -73,10 +74,10 @@ Straightforward Communication
                             <img src='/assests/Svgs/ourvalues6.svg' className=' mb-5 object-cover my-2' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                        Valuing Employees
+                            {OurValues[5].heading}
                         </h1>
                         <p className=' lg:text-md text-sm font-semibold'>
-                        At SteelX, our employees are our greatest asset. We go the extra mile to ensure continuous training, development, and motivation.
+                            {OurValues[5].description}
                         </p>
                     </div>
                     <div className='flex justify-start flex-col items-start gap-y-3 rounded-2xl shadow-lg bg-white p-5 w-full lg:w-1/4 h-60 lg:h-80'>
@@ -84,10 +85,10 @@ Straightforward Communication
                             <img src='/assests/Svgs/ourvalues7.svg' className=' mb-5 object-cover my-2' />
                         </div>
                         <h1 className=' lg:text-2xl text-xl font-bold'>
-                        Merit-Based Recognition
+                            {OurValues[6].heading}
                         </h1>
                         <p className=' lg:text-md text-sm font-semibold'>
-                        We operate on a meritocracy principle, where rewards and career advancements are solely based on performance and capabilities.
+                            {OurValues[6].description}
                         </p>
                     </div>
 

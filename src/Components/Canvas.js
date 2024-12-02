@@ -70,12 +70,12 @@ export default function Canvas() {
         <HeroSection />
         <Section1 />
         <Section2 />
-        <div id='entry' class="zero-move section-margin"></div>
+       
       
-        <div class="zero1-move section-margin"></div>
+  
 
        
-        <div class="first-move   section-margin"> 
+        <div id='entry' class="first-move    section-margin"> 
         </div>
        
         <div class="second-move section-margin"><Overlay  heading={"Erect column"} description={`Preparation:

@@ -5,7 +5,7 @@ import { Home_Hero_Section } from '../Data'
 export default function HeroSection() {
   return (
     <div>
-      <video className=' w-full lg:h-screen h-[50vh]   absolute left-0 top-0 object-cover z-0' autoPlay loop muted src={Home_Hero_Section.bg_video_path} />
+      <video className=' w-full lg:h-screen h-96  absolute left-0 top-0 object-cover z-0' autoPlay loop muted src={Home_Hero_Section.bg_video_path1} />
 
       <div className=' w-full z-[40] lg:h-screen top-0 left-0 relative text-white lg:pl-32 px-4 flex lg:flex-row flex-col py-10 '>
         <div style={{ fontFamily: "Chakra Petch" }} className=' lg:w-1/2 w-full flex flex-col lg:gap-y-5  gap-y-2 justify-center lg:items-start items-center '>
@@ -13,10 +13,10 @@ export default function HeroSection() {
             {Home_Hero_Section.top_heading}
           </h1>
           <h1 className=' lg:text-9xl text-4xl font-bold'>
-            STRONGER
+          {Home_Hero_Section.middle_heading}
           </h1>
           <h1 className=' lg:text-9xl text-4xl font-semibold'>
-            FUTURE
+            {Home_Hero_Section.lower_heading}
           </h1>
           <p className=' lg:text-2xl text-sm lg:text-left hidden lg:block text-center font-semibold'>
           {Home_Hero_Section.description} </p>
@@ -27,7 +27,7 @@ export default function HeroSection() {
        
           {/* <video className='absoulte w-full object-cover h-full z-10' /> */}
 
-          <video src={Home_Hero_Section.card_video_url}  muted autoPlay loop  className='absoulte w-full object-cover h-full z-10'/>
+          <video src={Home_Hero_Section.card_video_url1}  muted autoPlay loop  className='absoulte w-full object-cover h-full z-10'/>
             <motion.svg  className=' absolute z-20  translate-x-36 -translate-y-32' width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_597_88)">
                 <path d="M50.4596 33.9792L26.3971 19.25C25.5221 18.6667 24.793 19.1042 24.793 20.125V49.875C24.793 50.8959 25.5221 51.3334 26.3971 50.75L50.4596 36.0209C50.642 35.92 50.794 35.7721 50.8998 35.5926C51.0057 35.413 51.0615 35.2084 51.0615 35C51.0615 34.7916 51.0057 34.587 50.8998 34.4075C50.794 34.228 50.642 34.0801 50.4596 33.9792Z" fill="white" />

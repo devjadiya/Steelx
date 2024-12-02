@@ -133,7 +133,7 @@ export default () => {
                                                         >
                                                                 {idx.Items.map((idx, key) => (
                                                                         <>
-                                                                                <Link to={idx.path} key={key + 1} className='py-1 px-3 text-sm cursor-pointer  border-white    hover:bg-bg-orange w-full transition-all font-bold '>
+                                                                                <Link onClick={()=>setState(!state)} to={idx.path} key={key + 1} className='py-1 px-3 text-[18px] cursor-pointer  border-white    hover:bg-bg-orange w-full transition-all font-bold '>
                                                                                         {idx.title}
                                                                                 </Link>
                                                                         </>))

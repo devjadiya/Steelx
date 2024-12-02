@@ -8,6 +8,8 @@ import Section5 from './Home/Section5'
 import {motion} from "framer-motion"
 import Canvas from '../Components/Canvas'
 import Loader from './Loder'
+import Footer from './Footer'
+
  
 
 export default function Home() {
@@ -22,22 +24,25 @@ export default function Home() {
   
   return (
     <div>
- <div className=' lg:hidden'>
+ {/* <div className=' lg:hidden'>
   
 <HeroSection/> 
 <Section1/>
 <Section2/>
+<Section7/>
 <Section3/>
 <Section5/>
 <Section4/>
+<Footer/>
 
 
 
-</div> 
-<div className=' hidden lg:block'>
+</div>  */}
+<div className=' '>
 
 <Loader/>
 <Canvas/>
+<Footer/>
 
 <motion.div onClick={handleClick} whileHover={{scale:1.1}} whileTap={{scale:0.9}} transition={{duration:0.2}}  className='w-12 h-12 cursor-pointer flex justify-center items-center transition-all bg-bg-orange rounded-full fixed bottom-10 z-[99999] right-10'>
 <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">

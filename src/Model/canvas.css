@@ -86,7 +86,7 @@
     left: 31px;
   }
   .section-margin{
-    height: 2000px;
+    height: 700px;
     width: 100%;
    
   }
@@ -213,4 +213,32 @@
   top: 80px;
   transform: skewY(25deg);
   background-color: var(--color-pink);
+}
+@media (max-width: 768px) {
+  .section{
+    width: 100%;
+    padding: 100px 4%;
+  }
+  .section-intro-wrapper{
+    padding-bottom: 200px;
+  }
+  .section-detail-wrapper{
+    padding-bottom: 200px;
+  }
+  .section-title-text{
+    font-size: 32px;
+  }
+  .section-heading{
+    font-size: 16px;
+  }
+  .section-text{
+    font-size: 14px;
+  }
+  .styleOne,
+  .styleTwo,
+  .styleThree{
+    max-width: 200px;
+    height: 40px;
+  }
+  
 }

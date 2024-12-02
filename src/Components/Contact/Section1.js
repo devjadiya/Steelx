@@ -5,22 +5,10 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 export default function Section1() {
     const options = useMemo(() => countryList().getData(), [])
-    // const formSubmitURL = "https://script.google.com/macros/s/AKfycbzbYKlFzKqov-x_r2VPlpC1G9wU0b63geAzds2kLvzDHczgwciiMePwMkqxMGOycuis/exec";
-
-    // const onSubmit = () => {
-    //     const type = document.getElementById("inquiry-type")
-    //     const name = document.getElementById("name");
-    //     const company_name = document.getElementById("company-name");
-    //     const country = document.getElementById("country");
-    //     const city = document.getElementById("city");
-    //     const address = document.getElementById("address");
-    //     const email = document.getElementById("email");
-    //     const number = document.getElementById("number");
-    //     const subject = document.getElementById("subject");
-    //     const msg = document.getElementById("msg");
 
 
-    // form encoderspro
+
+   
 
     const onSubmit = () => {
         var type = document.getElementById("inquiry-type").value

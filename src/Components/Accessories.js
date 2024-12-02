@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from './Comman/HeroSection'
 import Section1 from './Accessories/Section1'
+import Footer from './Footer'
 
 export default () => {
   return (
@@ -12,6 +13,8 @@ export default () => {
         </h1>
       </div>
       <Section1 />
+
+      <Footer/>
     </div>
   )
 }

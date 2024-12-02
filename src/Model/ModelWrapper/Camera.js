@@ -18,11 +18,11 @@ export default class Camera {
             0.1,
             1000
         )
-        this.perspectiveCamera.position.x = -0.000005538365780534214
-        this.perspectiveCamera.position.y =9.446908086864974
-        this.perspectiveCamera.position.z = 0.031664904064913936
+        this.perspectiveCamera.position.x = 9
+        this.perspectiveCamera.position.y =7
+        this.perspectiveCamera.position.z =14
        
-  
+ 
         this.scene.add(this.perspectiveCamera);
 
     }
@@ -49,7 +49,9 @@ export default class Camera {
         this.controls = new OrbitControls(this.perspectiveCamera, this.canvas);
         this.controls.enableDamping = true;
         this.controls.enableZoom = false;
-        this.controls.enabled= false;
+        this.controls.enabled = false;
+        this.controls.enableRotate = false; 
+        this.controls.enablePan = false; 
     }
     resize() {
         this.perspectiveCamera.aspect = this.sizes.aspect;

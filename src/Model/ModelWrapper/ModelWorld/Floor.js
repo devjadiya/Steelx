@@ -26,7 +26,7 @@ export default class Floor {
         grassTexture.repeat.set(30, 30);
         
         this.material = new THREE.MeshStandardMaterial({
-            color: 0xffffff,
+            color: 0x8D2813,
             side: THREE.BackSide,
          
         

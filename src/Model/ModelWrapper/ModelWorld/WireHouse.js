@@ -22,10 +22,18 @@ export default class WireHouse {
 
     }
     setmodel() {
-        this.actualWireHouse.scale.set(0.5, 0.5, 0.5)
+        
         // this.actualWireHouse.scale.set(0.35, 0.35, 0.35)
-        this.actualWireHouse.position.y = -0.5;
-        // this.actualWireHouse.position.x = 3.5;
+        if(this.modelwrapper.sizes.device=="mobile"){
+            this.actualWireHouse.scale.set(0.22, 0.22, 0.22)
+      
+        }
+        else{
+            this.actualWireHouse.scale.set(0.4, 0.4, 0.4)
+            this.actualWireHouse.position.y = -0.5;
+            this.actualWireHouse.position.x = 4;
+        }
+       
         this.actualWireHouse.children.forEach(child => {
             if (child.name == "main_pillers") {
                 child.position.y = 0.64765;

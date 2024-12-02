@@ -4,7 +4,7 @@ export default function Section1() {
     return (
         <div className=' w-full gap-y-10 text-black flex-col lg:py-20 py-10 lg:px-32 px-4 flex justify-center items-center'>
             <h1 className='lg:text-5xl text-3xl font-extrabold text-center'>
-                South Indian state of Karnataka
+                Reach Us At...
             </h1>
 
             <div className=' flex lg:flex-row flex-col gap-y-10 justify-center items-center gap-x-8 w-full'>
